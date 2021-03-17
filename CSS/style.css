@@ -1,0 +1,119 @@
+/* Reset */
+@import "reset.css";
+
+/* Fonts */
+@font-face {
+    font-family: Roboto;
+    /* src: url(../Fonts/Effra\ Regular.ttf); */
+    src: url(../Fonts/Roboto-Regular.ttf);
+    /* src: url(../Fonts/Roboto-Medium.ttf); */
+    /* src: url(../Fonts/Roboto-Bold.ttf); */
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Main Styles */
+body {
+    direction: ltr;
+    font-family: Roboto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+/* Navi */
+#nav {
+    background: red;
+    position: fixed;
+    width: 100%;
+}
+
+#nav .menu {
+    float: right;
+}
+
+#nav .logo {
+    float: right;
+    margin-top: px;
+}
+
+#nav ul {
+    float: right;
+    position: relative;
+    right: 20px;
+}
+
+#nav ul li {
+    display: inline-block;
+}
+
+#nav ul li a {
+    display: inline-block;
+    color: #fff;
+    padding: 20px 10px;
+}
+
+#nav ul li a:hover {
+    background: #1e1e1e;
+}
+
+#nav .logo img {
+    width: 52px;
+}
+
+#nav .users {
+    float: left;
+    position: relative;
+    top: 20px;
+}
+
+#nav .users .login {
+    background: green;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+    position: relative;
+    left: 5px;
+    border-left: 1px solid blue;
+}
+
+#nav .users .register {
+    background: yellow;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+}
+
+/* Nav Dropdwon */
+#nav .dropdown {
+    position: absolute;
+    background: greenyellow;
+    width: 110px;
+    display: none;
+}
+
+#nav .dropdown a {
+    display: block;
+}
+
+#nav .dropdown-btn:hover .dropdown {
+    display: block;
+}
