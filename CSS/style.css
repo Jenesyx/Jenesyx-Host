@@ -13,7 +13,8 @@
 }
 
 /* Main Styles */
-body {
+body, html {
+    height: 100%;
     direction: ltr;
     font-family: Roboto;
 }
@@ -116,4 +117,73 @@ a {
 
 #nav .dropdown-btn:hover .dropdown {
     display: block;
+    position: relative;
 }
+
+/* Home */
+#home {
+    background: url('../Images/Main1.jpg');
+    height: 100%;
+    background-size: cover;
+    padding-top: 70px;
+}
+
+#home .title {
+    text-align: center;
+    font-size: 50px;
+    font-family: Roboto;
+    color: #fff;
+    margin-top: 150px;
+}
+
+#home .right {
+    float: right;
+}
+
+#home .why-us {
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 450px;
+}
+
+#home .why-us li {
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+#home .why-us svg {
+    font-size: 25px;
+    color: #FBC02D;
+    margin-right: 10px;
+    vertical-align: -2px;
+}
+
+#left .left {
+    float: left;
+    position: relative;
+    top: 100px;
+    left: 0;
+}
+
+#home .me {
+    width: 500px;
+
+}
+
+#home .start {
+    text-align: center;
+    margin-top: 120px;
+}
+
+#home .start svg {
+    font-size: 40px;
+    color: #000;
+}
+
