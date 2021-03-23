@@ -104,10 +104,11 @@ a {
 }
 
 /* Nav Dropdwon */
-#nav .dropdown {
+#nav .dropdown{
     position: absolute;
-    background: greenyellow;
-    width: 110px;
+    background-color: #313131;
+    width: 120px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 50%);
     display: none;
 }
 
@@ -115,9 +116,12 @@ a {
     display: block;
 }
 
-#nav .dropdown-btn:hover .dropdown {
+#nav .dropdown a:hover {
+    background-color: #1e1e1e;
+}
+
+#nav .dropdown-btn:hover .dropdown{
     display: block;
-    position: relative;
 }
 
 /* Home */
@@ -180,10 +184,29 @@ a {
 #home .start {
     text-align: center;
     margin-top: 120px;
+    position: relative;
+    animation-name: start;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 #home .start svg {
     font-size: 40px;
-    color: #000;
+    color: #fff;
+}
+
+/* Animation */
+@keyframes start {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: 10px;
+    }
+
+    100% {
+        top: 0;
+    }
 }
 
