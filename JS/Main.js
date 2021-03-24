@@ -6,5 +6,14 @@ function Onload()
         loop: true,
         startDelay: 2000,
         backSpeed: 30
-    }); 
+    });
+    
+    $('.example-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplaySpeed: 500,
+        autoplay: true,
+        centerMode: false,
+        dots: true,
+    });
 }

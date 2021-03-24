@@ -4,10 +4,14 @@
 /* Fonts */
 @font-face {
     font-family: Roboto;
-    /* src: url(../Fonts/Effra\ Regular.ttf); */
-    src: url(../Fonts/Roboto-Regular.ttf);
-    /* src: url(../Fonts/Roboto-Medium.ttf); */
-    /* src: url(../Fonts/Roboto-Bold.ttf); */
+    src: url('../Fonts/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url('../Fonts/Roboto-Bold.ttf');
     font-weight: normal;
     font-display: swap;
 }
@@ -32,11 +36,16 @@ a {
     margin: auto;
 }
 
+.vb {
+    font-family: RobotoBold;
+}
+
 /* Navi */
 #nav {
     background: red;
     position: fixed;
     width: 100%;
+    z-index: 99;
 }
 
 #nav .menu {
@@ -208,5 +217,37 @@ a {
     100% {
         top: 0;
     }
+}
+
+/* Example */
+#example {
+    text-align: center;
+    height: 400px;
+}
+
+#example .title {
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+#example .example-item {
+    width: 300px;
+    display: inline-block;
+}
+
+#example .example-item img {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+#example .example-item h3 {
+    margin-top: 20px;
 }
 
