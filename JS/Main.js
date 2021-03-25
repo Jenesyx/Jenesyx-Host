@@ -16,4 +16,24 @@ function Onload()
         centerMode: false,
         dots: true,
     });
+
+    $('.testimonial-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplaySpeed: 1500,
+        autoplay: true,
+        centerMode: false,
+        dots: true,
+    });
+
+    $('.gallery-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplaySpeed: 1000,
+        autoplay: true,
+        centerMode: false,
+        dots: true,
+        fade: true,
+        cssEase: 'linear'
+    });
 }
