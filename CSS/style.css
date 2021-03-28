@@ -335,9 +335,9 @@ input, button {
 }
 
 #subscribe .left svg {
-    margin-left: 5px;
-    font-size: 35px;
-    vertical-align: -10px;
+    margin-right: 5px;
+    font-size: 25px;
+    vertical-align: -5px;
 }
 
 #subscribe .right {
@@ -379,4 +379,81 @@ input, button {
 #subscribe .right button:hover {
     background-color: #1e1e1e;
     cursor: pointer;
+}
+
+/* footer */
+#footer {
+    background-color: #313131;
+    padding-bottom: 20px;
+
+}
+
+#footer .footer-item {
+    display: inline-block;
+    width: 30%;
+    margin-top: 30px;
+}
+
+#footer .footer-title {
+    font-size: 23px;
+    border-bottom: 2px dashed #ccc;
+    color:#fff;
+    padding-bottom: 20px;
+}
+
+#footer .posts {
+    margin-right: 40px;
+}
+
+#footer .posts li {
+    margin-top: 15px;
+}
+
+#footer .posts .post-image {
+    width: 120px;
+    display: inline-block;
+}
+
+#footer .posts .post-image img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+#footer .posts .post-title {
+    display: inline-block;
+    vertical-align: 30px;
+    color:#fff;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+#footer .about {
+    float: right;
+}
+
+#footer .about p {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+#footer .about p a {
+    color: #599af6;
+}
+
+#footer .social {
+    float: left;
+    text-align: center;
+}
+
+#footer .social li {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#footer .social svg {
+    font-size: 35px;
+    color:#fff;
+    margin-right: 10px;
 }
