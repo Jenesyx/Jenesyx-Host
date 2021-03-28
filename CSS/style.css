@@ -46,7 +46,7 @@ input, button {
 
 /* Navi */
 #nav {
-    background: red;
+    background: #1c1f3f;
     position: fixed;
     width: 100%;
     z-index: 99;
@@ -78,7 +78,7 @@ input, button {
 }
 
 #nav ul li a:hover {
-    background: #1e1e1e;
+    background: #1c1f3f;
 }
 
 #nav .logo img {
@@ -92,7 +92,7 @@ input, button {
 }
 
 #nav .users .login {
-    background: green;
+    background: #0e1020;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px 0 0 5px;
@@ -102,11 +102,11 @@ input, button {
     -o-border-radius: 5px 0 0 5px;
     position: relative;
     left: 5px;
-    border-left: 1px solid blue;
+    border-left: 1px solid #1c1f3f;
 }
 
 #nav .users .register {
-    background: yellow;
+    background: #353a75;
     color: #fff;
     padding: 5px 10px;
     border-radius: 0 5px 5px 0;
@@ -139,7 +139,7 @@ input, button {
 
 /* Home */
 #home {
-    background: url('../Images/Main1.jpg');
+    background: url('../Images/bg.jpeg');
     height: 100%;
     background-size: cover;
     padding-top: 70px;
